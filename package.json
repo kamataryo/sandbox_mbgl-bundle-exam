@@ -1,0 +1,22 @@
+{
+  "name": "@tilecloud/mbgl-bundle-exam",
+  "version": "0.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "build:parcel": "parcel build src/app.js --target browser --out-dir ./docs --out-file parcel.bundle.js",
+    "build:webpack": "webpack src/app.js -o ./docs/webpack.bundle.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilecloud/mbgl-bundle-exam/issues"
+  },
+  "homepage": "https://github.com/tilecloud/mbgl-bundle-exam#readme",
+  "devDependencies": {
+    "parcel": "^1.9.7",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.48.0"
+  }
+}
